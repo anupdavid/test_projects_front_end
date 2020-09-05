@@ -1,0 +1,146 @@
+body {
+  background-color: hsl(229, 57%, 11%);
+  background-image: url("../images/bg-desktop.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center bottom;
+  text-align: center;
+  background-size: contain;
+  color: hsl(243, 100%, 93%);
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  padding-top: 16%;
+}
+
+p {
+  padding-top: 20px;
+  padding-left: 60px;
+}
+
+.action-container {
+  background-color: hsl(228, 56%, 26%);
+  display: inline-block;
+  width: 320px;
+  height: 200px;
+  border-radius: 10px 80px 10px 10px;
+  padding-left: 1%;
+}
+
+.data-bar-container {
+  background-color: hsl(228, 56%, 26%);
+  display: inline-block;
+  height: 150px;
+  width: 600px;
+  text-align: left;
+  vertical-align: bottom;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.logo-pic {
+  position: relative;
+  top: 20%;
+  right: 5%;
+}
+
+.document-pic {
+  position: relative;
+  top: 60%;
+  right: 45%;
+  padding: 10px;
+  background-color: hsl(229, 57%, 11%);
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.folder-pic {
+  position: relative;
+  top: 60%;
+  right: 40%;
+  padding: 10px;
+  background-color: hsl(229, 57%, 11%);
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.upload-pic {
+  position: relative;
+  top: 60%;
+  right: 35%;
+  padding: 10px;
+  background-color: hsl(229, 57%, 11%);
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(228, 45%, 44%);
+  position: absolute;
+  bottom: 5px;
+  left: 40%;
+}
+
+.gradient-bar {
+  margin: auto;
+  padding: auto;
+  background: hsl(229, 57%, 11%);
+  border-radius: 10px;
+  height: 15px;
+  width: 80%;
+}
+
+.gradient-bar-progress {
+position: relative;
+top: 1.5px;
+left: 1px;
+  height:12px;
+  width:81.5%;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%))
+}
+
+.progress-start{
+margin-left:  10%;
+display: inline-block;
+margin-top: 5px;
+}
+.progress-end{
+display: inline-block;
+margin-left: 65%;
+mar
+
+}
+.box{
+  width: 70px;
+  margin: 50px auto;
+  background: hsl(229, 7%, 55%);
+  padding: 20px;
+  text-align: center;
+  font-weight: 700;
+  color: hsl(229, 57%, 11%);
+  border-radius: 10px;
+  position: absolute;
+  right: 33%;
+  top:29%;
+
+}
+.box::after{
+ content: "";
+ width: 0px;
+ height: 0px;
+ position: absolute;
+ border-left: 10px solid transparent;
+ border-right: 10px solid hsl(229, 7%, 55%);
+ border-top: 10px solid hsl(229, 7%, 55%);
+ border-bottom: 10px solid transparent;
+ right: 0px;
+ bottom: -10px;
+}
